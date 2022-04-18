@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Asteroid
+  - Background
+  - Player1
+  - Player2
+  - Score
   layers:
   - Default
   - TransparentFX

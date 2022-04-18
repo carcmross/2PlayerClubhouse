@@ -4,25 +4,47 @@ using UnityEngine;
 
 public class KillRocket : MonoBehaviour
 {
-    public GameManager gameManager;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        gameManager = FindObjectOfType<GameManager>();   
-    }
+    public static KillRocket instance;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.name == "Player")
+        if (collision.gameObject.CompareTag("Asteroid"))
         {
-            gameManager.RespawnPlayer();
+            Destroy(gameObject);
+            if (gameObject.tag == "Player1")
+            {
+                GameManager.instance.RespawnPlayer1();
+            }
+            else if (gameObject.tag == "Player2")
+            {
+                GameManager.instance.RespawnPlayer2();
+            }
+        }
+        
+        if (collision.gameObject.CompareTag("Score"))
+        {
+            Destroy(gameObject);
+            if (gameObject.tag == "Player1")
+            {
+                ScoreManager.instance.AddPointP1();
+                GameManager.instance.RespawnPlayer1();
+            }
+            else if (gameObject.tag == "Player2")
+            {
+                ScoreManager.instance.AddPointP2();
+                GameManager.instance.RespawnPlayer2();
+            }
+        }
+
+    }
+
+    public void endRockets ()
+    { 
+        if(GameManager.instance.isGameOver == true)
+        {
+            Destroy(gameObject);
         }
     }
+
+
 }
