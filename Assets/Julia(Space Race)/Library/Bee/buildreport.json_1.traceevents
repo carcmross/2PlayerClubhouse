@@ -1,0 +1,390 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1650399281610167, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399281611290, "dur": 13231, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399281624747, "dur": 187056, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399281811818, "dur": 9808, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399284028731, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399284028928, "dur": 1844, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399284030773, "dur": 125095, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399284155870, "dur": 1320, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399284157646, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1650399284053509, "dur":994, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284054510, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1650399284054588, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1650399284054600, "dur":469, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1650399284055088, "dur":374, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284055462, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284149921, "dur":264, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150185, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150196, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150199, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150207, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150208, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150217, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150218, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150223, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150224, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150229, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150230, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150236, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150237, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150242, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150243, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150248, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150249, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150254, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150255, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150261, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150262, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150267, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150268, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150274, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150279, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150280, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150285, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150285, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150290, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150291, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150296, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150309, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284150312, "dur":1115, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1650399284055254, "dur":213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284055467, "dur":3551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059019, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059105, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059165, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059227, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059319, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059407, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059473, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059523, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059577, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059633, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059693, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059746, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059865, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059924, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284059968, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650399284060027, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284060076, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1650399284060118, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284060208, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1650399284060266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1650399284062401, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1650399284066898, "dur":83023, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650399284055278, "dur":194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650399284055472, "dur":3542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650399284059016, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1650399284059146, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650399284059210, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650399284059340, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650399284059411, "dur":53527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1650399284112939, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1650399284113004, "dur":36915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284055303, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284055476, "dur":3540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059017, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059138, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059196, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22).exe" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059272, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059315, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059391, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059442, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059501, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059560, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059618, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059679, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059731, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059788, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059869, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059925, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650399284059971, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284060038, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1650399284060118, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284060166, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1650399284060215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1650399284062014, "dur":4761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1650399284066825, "dur":83093, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284055324, "dur":156, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284055480, "dur":3544, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059027, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059142, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059220, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059324, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059397, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059446, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059496, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059570, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059621, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059683, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059743, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059866, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284059960, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650399284060035, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284060094, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1650399284060142, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284060194, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1650399284060350, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284060408, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1650399284060462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1650399284063154, "dur":3202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1650399284066399, "dur":83534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284055347, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284055486, "dur":3534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059021, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059143, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059214, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059321, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059394, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059454, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059510, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059573, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059630, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059702, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059752, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059878, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059936, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650399284059979, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284060031, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1650399284060080, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284060124, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1650399284060209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284061352, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1650399284064657, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1650399284064714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1650399284064719, "dur":2960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1650399284067729, "dur":82202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284055367, "dur":122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284055489, "dur":3532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059022, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059123, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059176, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059275, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059337, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059417, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059485, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059547, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059612, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059673, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059727, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059783, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284059868, "dur":38006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1650399284097875, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1650399284097938, "dur":51986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284055390, "dur":103, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284055493, "dur":3519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059017, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059139, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059204, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059272, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059325, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059397, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059457, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059511, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059570, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059628, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059688, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059746, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284059861, "dur":35245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1650399284095107, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1650399284095198, "dur":54729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284055411, "dur":86, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284055497, "dur":3535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059032, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059154, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059212, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059314, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059389, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059442, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059491, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059575, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059625, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059701, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059784, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059869, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284059942, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650399284060009, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284060057, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1650399284060104, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284060150, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1650399284060204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1650399284060644, "dur":5826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1650399284066510, "dur":83406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284055439, "dur":62, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284055501, "dur":3532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059033, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059170, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059278, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059337, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059409, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059478, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059529, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059578, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059636, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059727, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059777, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059865, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059918, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284059964, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284060018, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284060075, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284060123, "dur":21010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284081139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1650399284081189, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1650399284082018, "dur":67911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284055464, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284055465, "dur":3543, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059016, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059017, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059075, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/app.info" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059076, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059145, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059214, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059309, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059359, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059410, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059465, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059510, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059558, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059611, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059672, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059719, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059764, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284059868, "dur":89944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1650399284149813, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1650399284149890, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1650399284149891, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284055484, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284055484, "dur":3529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059017, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059122, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059173, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059272, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059330, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059422, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059481, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059532, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059618, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059679, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059733, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059786, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059871, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650399284059950, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284060004, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1650399284060060, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284060134, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1650399284060212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284061693, "dur":4558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1650399284066298, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1650399284066425, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1650399284066470, "dur":83444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284055504, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284055505, "dur":3522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059029, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059171, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059232, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059326, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059425, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059488, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059550, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059609, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059671, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059732, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284059857, "dur":20990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1650399284080849, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1650399284080941, "dur":68989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284055525, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284055525, "dur":3501, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059027, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059109, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059164, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059228, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059318, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059404, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059463, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059514, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059576, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059633, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059688, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059741, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059852, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059897, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059947, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1650399284059997, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284060037, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1650399284060083, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284060124, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1650399284060204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1650399284060977, "dur":15009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1650399284076023, "dur":73899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284055539, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284055539, "dur":3478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059023, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059134, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059193, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059276, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059348, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059422, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059487, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059550, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059620, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059689, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059775, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059869, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059917, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1650399284059966, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060024, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060067, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060111, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060154, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060196, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060767, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060826, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284060880, "dur":4750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/level0" }}
+,{ "pid":12345, "tid":14, "ts":1650399284065685, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1650399284065736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1650399284065740, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":14, "ts":1650399284067726, "dur":82197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284055563, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284055563, "dur":3456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059020, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059104, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059172, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059259, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059318, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059465, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059520, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059579, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059701, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059754, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284059858, "dur":43145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1650399284103004, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1650399284103070, "dur":46855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284055584, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284055584, "dur":3438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059024, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059246, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059322, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059418, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059552, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059609, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059683, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059739, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059791, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1650399284059870, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284060005, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":16, "ts":1650399284060062, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284060111, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":16, "ts":1650399284060159, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284060206, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Space Race (KnightsHack22)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1650399284060269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1650399284062801, "dur":4026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Space Race (KnightsHack22)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1650399284066885, "dur":83032, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1650399284152604, "dur":991, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1650399284157741, "dur": 449, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1650399284157634, "dur": 574, "ph": "X", "name": "Write chrome-trace events", "args": {} },

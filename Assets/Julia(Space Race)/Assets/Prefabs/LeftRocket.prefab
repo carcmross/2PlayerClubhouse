@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7767635602600742122}
   - component: {fileID: 7767635602600742123}
   - component: {fileID: 679253462}
+  - component: {fileID: 864704030}
   m_Layer: 10
   m_Name: LeftRocket
   m_TagString: Player1
@@ -160,5 +161,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e3ea894503e60d409652b617c60c2e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &864704030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7767635602600742128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acba4adb83b23a42928f36b5b729bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

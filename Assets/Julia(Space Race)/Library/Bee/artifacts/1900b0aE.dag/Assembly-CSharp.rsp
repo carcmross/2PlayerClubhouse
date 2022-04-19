@@ -339,7 +339,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/asteroid.cs"
+"Assets/Scripts/asteroidL.cs"
+"Assets/Scripts/AudioManager.cs"
+"Assets/Scripts/Countdown.cs"
+"Assets/Scripts/CountdownTimer.cs"
 "Assets/Scripts/deployAsteroids.cs"
+"Assets/Scripts/deployAsteroidsL.cs"
 "Assets/Scripts/DestroyOverTime.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GameOverScreen.cs"
@@ -350,6 +355,8 @@
 "Assets/Scripts/RightRocket_Controller.cs"
 "Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/ScreenBounds.cs"
+"Assets/Scripts/Sound.cs"
+"Assets/Scripts/StartScreen.cs"
 "Assets/Scripts/Timer.cs"
 -langversion:9.0
 

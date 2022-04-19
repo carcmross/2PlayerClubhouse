@@ -5,7 +5,7 @@ using UnityEngine;
 public class deployAsteroids : MonoBehaviour
 {
     public GameObject asteroidPrefab;
-    public float respawnTime = 1.0f;
+    public float respawnTime = 1.50f;
     private Vector2 screenBounds;
 
     // Use this for initialization
@@ -18,7 +18,7 @@ public class deployAsteroids : MonoBehaviour
     {
         GameObject a = Instantiate(asteroidPrefab) as GameObject;
 
-        a.transform.position = new Vector2(screenBounds.x, Random.Range(-screenBounds.y, screenBounds.y));
+        a.transform.position = new Vector2(-screenBounds.x, Random.Range(-screenBounds.y, screenBounds.y));
     }
     IEnumerator asteroidWave()
     {

@@ -24,6 +24,8 @@ public class KillRocket : MonoBehaviour
         if (collision.gameObject.CompareTag("Score"))
         {
             Destroy(gameObject);
+            FindObjectOfType<AudioManager>().Play("Score");
+
             if (gameObject.tag == "Player1")
             {
                 ScoreManager.instance.AddPointP1();
@@ -37,14 +39,4 @@ public class KillRocket : MonoBehaviour
         }
 
     }
-
-    public void endRockets ()
-    { 
-        if(GameManager.instance.isGameOver == true)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-
 }

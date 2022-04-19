@@ -1,22 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{
-    // Game Management
-    public GameOverScreen GameOverScreen;
-    public bool isGameOver = false;
-    
-    public void GameOver()
-    {
-        isGameOver = true;
-        GameOverScreen.Setup();
-        Debug.Log("Game Over!");
-    }
-
+{   
     // Respawn
     public static GameManager instance;
 
@@ -26,7 +14,27 @@ public class GameManager : MonoBehaviour
     public GameObject leftRocketPrefab;
     public GameObject rightRocketPrefab;
     
+    // Game Management
+    public GameOverScreen GameOverScreen;
+    public Countdown Countdown;
 
+    public bool isGameOver = false;
+    public bool isGameStart = false;
+   
+    public void GameOver()
+    {
+        isGameOver = true;
+        Time.timeScale = 0f;
+        GameOverScreen.Setup();
+        Debug.Log("Game Over!");
+    } 
+    
+    public void GameStart()
+    {
+        Countdown.Setup();
+        isGameStart = true;
+        Debug.Log("Game is Starting...");
+    }
 
     private void Awake()
     {
@@ -45,6 +53,7 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("Player2 Respawn");
     }
+
 
 
 }

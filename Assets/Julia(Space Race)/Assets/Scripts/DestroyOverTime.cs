@@ -9,7 +9,7 @@ public class DestroyOverTime : MonoBehaviour
 
     void Start()
     {
-        lifeTime = 10f;
+        lifeTime = 60f;
     }
 
     // Update is called once per frame
